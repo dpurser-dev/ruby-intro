@@ -30,3 +30,30 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+puts 3 == 2
+puts 3 != 2
+
+if 3 > 2
+    puts "Yes"
+end
+
+your_teamscore = 3
+other_teamscore = 2
+
+if your_teamscore > other_teamscore
+    puts "You win!"
+elsif your_teamscore < other_teamscore
+    puts "You lose!"
+else
+    puts "Draw"
+end
+
+temp = 70
+precip = 1
+
+if (temp <= 65 && temp <= 90) || precip == 0
+    puts "It's nice outside"
+else
+    puts "Stay inside"
+end
